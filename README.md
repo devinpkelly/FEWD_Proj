@@ -8,7 +8,7 @@ As of March 1st I completely started over.  This is my first commit after redoin
 *March 24th I have all the content finished with the exception of hte Javascript portion.  I've not been successful in getting anything to successfully display images from my instagram or Flickr pages.
 
 ## Custom CSS Classes
-```
+
 The classes I created are:
 
 1. .navbar 
@@ -23,17 +23,12 @@ applies color changes to hyperlinks depending on their status (hover/visited/unc
 4. .body
 formats the .html pages font, color, and the background gradient
 
-5. .
-
-
-
 
 ## Custom JavaScript Functions
-```
-The javascript functions I created are:
 
-1. function name ex( animate() )
-.. what function does ex( animate() is used to move the elements in the info div across the screen)
+The javascript function I created is:
 
-```
+1. flickr.js
+.. AJAX function that interacts with Flickr API on my personal account to pull images and display them in a gallery.
+
 # FEWD_Proj
