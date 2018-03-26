@@ -1,0 +1,46 @@
+/* stylesheet for dpk portfolio website */
+
+/* makes background fade to bottom from white to a #b3e6ff */
+
+body {
+    background: linear-gradient(to bottom, white, #b3e6ff);
+    }
+
+/* Text color and shading for H1 elements */
+h1 {
+    color: skyblue;
+    text-shadow: 2px 2px black;
+}
+
+/* Text color and shading for H4 elements */
+h4 {
+    text-align: center;
+    color: skyblue;
+    text-shadow: 1px 1px black;
+    }
+
+p {
+  color: skyblue;
+  text-shadow: 1px 1px black;
+}
+
+/*puts navbar inline with header*/
+.display-2,
+.navbar {
+  display: inline-block;
+}
+/*text effects for hyperlinks*/
+
+a:link {
+    text-decoration: none;
+    color: skyblue;
+}
+a:visited {
+    color: #8388a0;
+}
+a:hover {
+    color: #0638c1;
+}
+p {
+margin-bottom: 100px;
+}
