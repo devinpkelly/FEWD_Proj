@@ -11,13 +11,13 @@ As of March 1st I completely started over.  This is my first commit after redoin
 
 The classes I created are:
 
-1. .navbar 
+1. .navbar
 adds padding & changes background color of .main-info-section.
 
-2. .gallery 
+2. .gallery
 formats the gallery I'm using to display the images on my webpage.  Padding, box shadows etc.
 
-3. .a
+3. .a (visited and hover)
 applies color changes to hyperlinks depending on their status (hover/visited/unclicked)
 
 4. .body

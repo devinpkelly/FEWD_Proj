@@ -2,6 +2,7 @@ $(function() {
     $.ajax({
         url: (window.location.protocol === 'https:' ? 'https://secure' : 'http://api') + '.flickr.com/services/rest/',
         data: {
+          //All flickr info to pull data in json format//
             format: 'json',
             method: 'flickr.photosets.getPhotos',
             api_key: '3adcf8bb0b80436dfde9f78c5958d441',
