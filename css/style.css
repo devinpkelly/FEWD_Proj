@@ -8,20 +8,24 @@ body {
 
 /* Text color and shading for H1 elements */
 h1 {
+  font-family: georgia;
     color: skyblue;
     text-shadow: 2px 2px black;
 }
 
 /* Text color and shading for H4 elements */
 h4 {
+  font-family: georgia;
     text-align: center;
-    color: skyblue;
+    color: cornflowerblue;
     text-shadow: 1px 1px black;
     }
 
 p {
-  color: skyblue;
-  text-shadow: 1px 1px black;
+  font-family: georgia;
+  color: cornflowerblue;
+  margin-bottom: 100px;
+  text-shadow: 1px 1px white;
 }
 
 /*puts navbar inline with header*/
@@ -33,7 +37,7 @@ p {
 
 a:link {
     text-decoration: none;
-    color: skyblue;
+    color: cornflowerblue;
 }
 a:visited {
     color: #8388a0;
@@ -41,6 +45,14 @@ a:visited {
 a:hover {
     color: #0638c1;
 }
-p {
-margin-bottom: 100px;
+
+.email {
+  font-family: georgia;
+  font-size:20px;
+}
+
+.custom {
+  font-family: georgia;
+  font-size:22px;
+  color:cornflowerblue;
 }
