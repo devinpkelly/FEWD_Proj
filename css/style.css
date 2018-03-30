@@ -25,7 +25,6 @@ p {
   font-family: georgia;
   color: cornflowerblue;
   margin-bottom: 100px;
-  text-shadow: 1px 1px white;
 }
 
 /*puts navbar inline with header*/
@@ -47,12 +46,14 @@ a:hover {
 }
 
 .email {
-  font-family: georgia;
-  font-size:20px;
-}
+  font: courier;
+  font-size:16px;
+  text-shadow: 1px 1px lightblue;
+  }
 
 .custom {
   font-family: georgia;
-  font-size:22px;
+  font-size:16px;
   color:cornflowerblue;
+  text-shadow: 1px 1px lightblue;
 }
